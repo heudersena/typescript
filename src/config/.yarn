@@ -1,0 +1,2 @@
+yarn add  @typescript-eslint/eslint-plugin babel-plugin-transform-typescript-metadata eslint eslint-config-airbnb-base eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import-helpers eslint-plugin-prettier prettier prisma ts-node ts-node-dev tsconfig-paths typescript @types/socket.io @types/express @types/dotenv @types/axios  @types/node -D
+yarn add express cors axios dotenv socket.io jsonwebtoken

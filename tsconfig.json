@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "lib": ["es6"],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "./build",
+        "rootDir": "./src",
+        "baseUrl": ".",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./src/@types"
+        ],
+        "paths": {
+            "@src/*": [  "./src/*"],
+            "@controllers/*": [  "./src/controllers/*"],
+            "@routes/*": [  "./src/routes/*"],
+            "@middleware/*": [  "./src/middleware/*"],
+            "@config/*": [  "./src/config/*"],
+            "@prisma/*": [  "./src/prisma/*"]
+        }
+    },
+    // "include": ["src/**/*"],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "strict": false,
+    "resolveJsonModule": true,
+    "allowJs": true,
+}
